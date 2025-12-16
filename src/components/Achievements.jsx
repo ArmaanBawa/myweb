@@ -32,6 +32,13 @@ const Achievements = () => {
       description: 'Successfully built and shipped client websites and apps',
       bg: 'bg-[#F24E1E]',
       gradient: 'from-[#F24E1E] to-[#A259FF]'
+    },
+    {
+      icon: Award,
+      title: 'Development Mentor At GDG NSUT',
+      description: 'Development mentor at Google Development Groups, One of the Best coding club at NSUT',
+      bg: 'bg-[#A259FF]',
+      gradient: 'from-[#A259FF] to-[#1ABCFE]'
     }
   ];
 

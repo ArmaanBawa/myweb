@@ -5,6 +5,19 @@ import ThreeDHeading from '@/components/ThreeDHeading';
 const Skills = () => {
   const skillCategories = [
     {
+      category: 'Languages',
+      color: 'text-[#F24E1E]',
+      barColor: 'bg-[#F24E1E]',
+      borderColor: 'group-hover:border-[#F24E1E]',
+      skills: [
+        { name: 'Python', level: 90 },
+        { name: 'C++', level: 95 },
+        { name: 'Java', level: 90 },
+        { name: 'C', level: 80 },
+        { name: 'Javascript', level: 85 }
+      ]
+    },
+    {
       category: 'Frontend',
       color: 'text-[#1ABCFE]',
       barColor: 'bg-[#1ABCFE]',
@@ -36,7 +49,8 @@ const Skills = () => {
         { name: 'Docker', level: 85 },
         { name: 'AWS', level: 80 },
         { name: 'Azure', level: 75 },
-        { name: 'GitHub', level: 90 }
+        { name: 'GitHub', level: 90 },
+        { name: 'Google Cloud', level: 90 }
       ]
     },
     {
@@ -49,7 +63,7 @@ const Skills = () => {
         { name: 'Pandas', level: 85 },
         { name: 'Scikit‑Learn', level: 78 },
         { name: 'PyTorch', level: 70 },
-        { name: 'TensorFlow', level: 68 }
+        { name: 'Keras', level: 75 }
       ]
     }
   ];

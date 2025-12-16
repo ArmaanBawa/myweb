@@ -33,7 +33,8 @@ const Academics = () => {
 
   const certifications = [
     { name: 'Pandas Course — Kaggle', color: 'bg-[#FFC700]', text: 'text-black' },
-    { name: 'Introduction to Deep Learning — MIT 6.S191', color: 'bg-[#A259FF]', text: 'text-white' }
+    { name: 'Introduction to Deep Learning — MIT 6.S191', color: 'bg-[#A259FF]', text: 'text-white' },
+    { name: 'Introduction to Digital Marketing — Google', color: 'bg-[#FF3639]', text: 'text-white' }
   ];
 
   return (
